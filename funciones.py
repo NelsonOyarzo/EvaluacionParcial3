@@ -14,3 +14,8 @@ def agregar_libro():
     }
     libros.append(libro)
     print("¡Se ha registrado de manera correcta el libro!")
+
+def ver_libros():
+    for libro in libros:
+        print(libro)
+        break
