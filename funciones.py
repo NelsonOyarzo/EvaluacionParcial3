@@ -17,10 +17,11 @@ def agregar_libro():
 
 def ver_libros():
     for libro in libros:
-        return libro
+        print(libros)
+        return libros
 
 
-def eliminar_libro(libros):
+def eliminar_libro():
     libro_eliminar = input("Ingrese el nombre del libro que desea eliminar: ")
     encontrado = False
     
@@ -34,7 +35,7 @@ def eliminar_libro(libros):
         print("Libro no encontrado.")
 
 
-def guardar_archivo(libros):
+def guardar_archivo():
     with open('Archivo_nuevo.txt', 'w', encoding='utf-8') as archivo:
         for libro in libros:
             nombre = libro['Nombre']
