@@ -33,3 +33,7 @@ while True:
         elif opcion == 6:
             print("saliendo del programa");
             break;
+
+#Nelson Oyarzo
+#diego benitez
+#matias caileo
